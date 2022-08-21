@@ -1,0 +1,135 @@
+body{
+    background: #0b0723;
+}
+
+body div{
+    width: 600px;
+    height: 300px;
+}
+
+.container_circles{
+    position: absolute;
+    border-radius: 10px;
+    background: #ffffff44;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Circulos */
+.container_circles .circle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    /* margin: 4px; */
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.container_circles .circle:hover{
+    width: 17px;
+    height: 17px;
+}
+
+.container_circles .circle:nth-child(1){
+    top: 20%;
+    left: 8%;
+}
+
+.container_circles .circle:nth-child(2){
+    top: 75%;
+    left: 13%;
+}
+
+.container_circles .circle:nth-child(3){
+    top: 50%;
+    left: 20%;
+}
+
+.container_circles .circle:nth-child(4){
+    top: 35%;
+    left: 50%;
+}
+
+.container_circles .circle:nth-child(5){
+    top: 10%;
+    left: 58%;
+}
+
+.container_circles .circle:nth-child(6){
+    top: 55%;
+    left: 70%;
+}
+
+.container_circles .circle:nth-child(7){
+    top: 40%;
+    left: 82%;
+}
+
+/* Lineas */
+.container_lines{
+    position: absolute;
+    /* width: 600px; */
+    /* height: 300px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+
+.container_lines .line{
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+}
+
+.container_lines .line:nth-child(1){
+    top: 16.5%;
+    left: 14.3%;
+    width: 0.3%;
+    height: 39%;
+    transform: rotate(322deg);
+}
+
+.container_lines .line:nth-child(2){
+    top: 50.5%;
+    left: 16.9%;
+    width: 0.3%;
+    height: 29%;
+    transform: rotate(209deg);
+}
+
+.container_lines .line:nth-child(3){
+    top: 12.5%;
+    left: 35.9%;
+    width: 0.3%;
+    height: 63%;
+    transform: rotate(256deg);
+}
+
+.container_lines .line:nth-child(4){
+    top: 9.5%;
+    left: 54.6%;
+    width: 0.3%;
+    height: 29%;
+    transform: rotate(212deg);
+}
+
+.container_lines .line:nth-child(5){
+    top: 24.2%;
+    left: 60.9%;
+    width: 0.3%;
+    height: 46%;
+    transform: rotate(297deg);
+}
+
+.container_lines .line:nth-child(6){
+    top: 35.7%;
+    left: 76.2%;
+    width: 0.3%;
+    height: 28.6%;
+    transform: rotate(237deg);
+}
+
